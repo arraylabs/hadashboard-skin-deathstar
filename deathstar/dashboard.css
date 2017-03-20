@@ -1,0 +1,271 @@
+html {
+	font-size:100%;
+	-webkit-text-size-adjust:100%;
+	-ms-text-size-adjust:100%;
+	padding:0;
+}
+
+body {
+	margin:0;
+	background-color: #000;
+	font-size:15px;
+  color:#e1e1e1;
+	padding:0;
+	font-family:'Helvetica Neue','Helvetica','Open Sans','Arial';
+}
+
+body::after
+{
+  background: transparent url(/custom_css/deathstar/img/star_wars.jpg) no-repeat 50% 0 fixed;
+  background-size:cover;
+  content: "";
+  opacity: 1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; 
+}
+
+b,strong {
+	font-weight:700;
+}
+
+a {
+	text-decoration:none;
+	color:inherit;
+}
+
+img {
+	border:0;
+	-ms-interpolation-mode:bicubic;
+	vertical-align:middle;
+}
+
+img,object {
+	max-width:100%;
+}
+
+iframe {
+	max-width:100%;
+}
+
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+	width:100%;
+}
+
+td {
+	vertical-align:middle;
+}
+
+ul,ol {
+	padding:0;
+	margin:0;
+}
+
+h4,h5,p {
+	padding:0;
+	margin:0;
+}
+
+h1 {
+	padding:0;
+	margin:0;
+	margin-bottom:6px;
+	text-align:center;
+	font-size:100%;
+	font-weight:200;
+}
+
+h2 {
+	padding:0;
+	margin:0;
+	font-size:220%;
+	font-weight:400;
+  color:#e1e1e1;
+}
+
+h3 {
+	padding:0;
+	margin:0;
+	font-size:125%;
+	font-weight:300;
+	color:#e1e1e1;
+}
+
+.dashboard_main {
+	margin:0 auto;
+}
+
+.gridster {
+	margin:0 auto;
+}
+
+.icon-background {
+	pointer-events:none;
+	width:100%!important;
+	height:100%;
+	position:absolute;
+	left:0;
+	top:0;
+	opacity:.1;
+	font-size:1375%;
+	text-align:center;
+	margin-top:82px;
+}
+
+.list-nostyle {
+	list-style:none;
+}
+
+.gridster ul {
+	list-style:none;
+}
+
+.gs-w {
+	width:100%;
+	display:table;
+	cursor:pointer;
+}
+
+li:before
+{
+  display: block;
+  content: "";
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
+  z-index: 999;
+}
+
+li:after
+{
+  display: block;
+  content: "";
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border-top: 1px solid #fff;
+  border-right: 1px solid #fff;
+  z-index: 999;
+}
+
+.widget:before
+{
+  display: block;
+  content: "";
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  border-bottom: 1px solid #fff;
+  border-left: 1px solid #fff;
+  z-index: 999;
+}
+
+.widget:after
+{
+  display: block;
+  content: "";
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  border-bottom: 1px solid #fff;
+  border-right: 1px solid #fff;
+  z-index: 999;
+}
+
+.widget {
+	padding:0;
+	text-align:center;
+	width:100%;
+	display:table-cell;
+	vertical-align:middle;
+	border-radius: 1px;
+}
+
+.title
+{
+/* 	color:#fff; */
+/* 	background-color: rgba(145, 52, 37, 0.9); */
+  margin-top: -5px;
+}
+
+.title
+{
+  height: 35px;
+  padding-top: 5px;
+  z-index: 1;
+  padding-bottom: 6px;
+}
+
+.title2
+{
+  z-index: 2;
+  margin-top: 0;
+}
+
+.icon-inactive {
+	color:#888;
+	font-size:300%;
+	top: 54px !important;
+}
+
+.icon-active {
+	font-size:300%;
+	top: 54px !important;
+}
+
+.icon
+{
+  font-size: 300%;
+/*   top: 56px !important; */
+}
+
+#container {
+	padding-top:0;
+}
+
+.unit, .level {
+	font-size:120%!important;
+	vertical-align:baseline!important;
+	color: #e1e1e1 !important;
+}
+
+.value
+{
+  color: inherit;
+}
+
+.valueunit
+{
+  top: 54px !important;
+}
+
+.state_text
+{
+  bottom: -3px !important;
+  text-transform: capitalize;
+}
+
+.levelunit
+{
+  bottom: 0px !important;
+}
+
+.secondary-info
+{
+  font-weight: 400 !important;
+}
