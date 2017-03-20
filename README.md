@@ -11,7 +11,7 @@ smoke_basement:
   widget_type: sensor
   title: Smoke/CO
   title2: Basement
-  widget_style: $red_background
+  widget_style: $green_background
   entity: sensor.smoke_co_basement
 ```
 ###Colors available: 
